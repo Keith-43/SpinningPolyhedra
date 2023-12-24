@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		533A4CAB2B1E49D10046613E /* SpinningPolyhedraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CAA2B1E49D10046613E /* SpinningPolyhedraApp.swift */; };
+		533A4CAD2B1E49D10046613E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CAC2B1E49D10046613E /* ContentView.swift */; };
+		533A4CAF2B1E49D20046613E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533A4CAE2B1E49D20046613E /* Assets.xcassets */; };
+		533A4CB32B1E49D20046613E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533A4CB22B1E49D20046613E /* Preview Assets.xcassets */; };
+		533A4CC52B1E4B4E0046613E /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CB92B1E4B4E0046613E /* Plane.swift */; };
+		533A4CC72B1E4B4E0046613E /* Icosahedron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CBB2B1E4B4E0046613E /* Icosahedron.swift */; };
+		533A4CC82B1E4B4E0046613E /* PolyhedronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CBC2B1E4B4E0046613E /* PolyhedronView.swift */; };
+		533A4CC92B1E4B4E0046613E /* Dodecahedron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CBD2B1E4B4E0046613E /* Dodecahedron.swift */; };
+		533A4CCA2B1E4B4E0046613E /* PolyhedronProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CBE2B1E4B4E0046613E /* PolyhedronProtocol.swift */; };
+		533A4CCB2B1E4B4E0046613E /* Rhombicuboctahedron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CBF2B1E4B4E0046613E /* Rhombicuboctahedron.swift */; };
+		533A4CCC2B1E4B4E0046613E /* TruncatedIcosahedron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CC02B1E4B4E0046613E /* TruncatedIcosahedron.swift */; };
+		533A4CCD2B1E4B4E0046613E /* Cuboctahedron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CC12B1E4B4E0046613E /* Cuboctahedron.swift */; };
+		533A4CCE2B1E4B4E0046613E /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CC22B1E4B4E0046613E /* Cube.swift */; };
+		533A4CCF2B1E4B4E0046613E /* Tetrahedron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CC32B1E4B4E0046613E /* Tetrahedron.swift */; };
+		533A4CD02B1E4B4E0046613E /* Octahedron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A4CC42B1E4B4E0046613E /* Octahedron.swift */; };
+		534A22F02B23817D006D52DF /* EdgesNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534A22ED2B23817D006D52DF /* EdgesNode.swift */; };
+		534A22F12B23817D006D52DF /* FacesNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534A22EE2B23817D006D52DF /* FacesNode.swift */; };
+		534A22F22B23817D006D52DF /* SolidNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534A22EF2B23817D006D52DF /* SolidNode.swift */; };
+		539FB6362B37B8E800D94A80 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 539FB6352B37B8E800D94A80 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		533A4CA72B1E49D10046613E /* SpinningPolyhedra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinningPolyhedra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		533A4CAA2B1E49D10046613E /* SpinningPolyhedraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningPolyhedraApp.swift; sourceTree = "<group>"; };
+		533A4CAC2B1E49D10046613E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		533A4CAE2B1E49D20046613E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		533A4CB02B1E49D20046613E /* SpinningPolyhedra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpinningPolyhedra.entitlements; sourceTree = "<group>"; };
+		533A4CB22B1E49D20046613E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		533A4CB92B1E4B4E0046613E /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		533A4CBB2B1E4B4E0046613E /* Icosahedron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icosahedron.swift; sourceTree = "<group>"; };
+		533A4CBC2B1E4B4E0046613E /* PolyhedronView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolyhedronView.swift; sourceTree = "<group>"; };
+		533A4CBD2B1E4B4E0046613E /* Dodecahedron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dodecahedron.swift; sourceTree = "<group>"; };
+		533A4CBE2B1E4B4E0046613E /* PolyhedronProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolyhedronProtocol.swift; sourceTree = "<group>"; };
+		533A4CBF2B1E4B4E0046613E /* Rhombicuboctahedron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rhombicuboctahedron.swift; sourceTree = "<group>"; };
+		533A4CC02B1E4B4E0046613E /* TruncatedIcosahedron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruncatedIcosahedron.swift; sourceTree = "<group>"; };
+		533A4CC12B1E4B4E0046613E /* Cuboctahedron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cuboctahedron.swift; sourceTree = "<group>"; };
+		533A4CC22B1E4B4E0046613E /* Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		533A4CC32B1E4B4E0046613E /* Tetrahedron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tetrahedron.swift; sourceTree = "<group>"; };
+		533A4CC42B1E4B4E0046613E /* Octahedron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octahedron.swift; sourceTree = "<group>"; };
+		534A22ED2B23817D006D52DF /* EdgesNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgesNode.swift; sourceTree = "<group>"; };
+		534A22EE2B23817D006D52DF /* FacesNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacesNode.swift; sourceTree = "<group>"; };
+		534A22EF2B23817D006D52DF /* SolidNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidNode.swift; sourceTree = "<group>"; };
+		539FB6352B37B8E800D94A80 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533A4CA42B1E49D10046613E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533A4C9E2B1E49D10046613E = {
+			isa = PBXGroup;
+			children = (
+				539FB6352B37B8E800D94A80 /* README.md */,
+				533A4CA92B1E49D10046613E /* SpinningPolyhedra */,
+				533A4CA82B1E49D10046613E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		533A4CA82B1E49D10046613E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533A4CA72B1E49D10046613E /* SpinningPolyhedra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533A4CA92B1E49D10046613E /* SpinningPolyhedra */ = {
+			isa = PBXGroup;
+			children = (
+				533A4CAA2B1E49D10046613E /* SpinningPolyhedraApp.swift */,
+				533A4CAC2B1E49D10046613E /* ContentView.swift */,
+				533A4CBC2B1E4B4E0046613E /* PolyhedronView.swift */,
+				534A22EF2B23817D006D52DF /* SolidNode.swift */,
+				534A22ED2B23817D006D52DF /* EdgesNode.swift */,
+				534A22EE2B23817D006D52DF /* FacesNode.swift */,
+				53EC9D882B27BA7400AD946A /* Polyhedra */,
+				533A4CAE2B1E49D20046613E /* Assets.xcassets */,
+				533A4CB02B1E49D20046613E /* SpinningPolyhedra.entitlements */,
+				533A4CB12B1E49D20046613E /* Preview Content */,
+			);
+			path = SpinningPolyhedra;
+			sourceTree = "<group>";
+		};
+		533A4CB12B1E49D20046613E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				533A4CB22B1E49D20046613E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53EC9D882B27BA7400AD946A /* Polyhedra */ = {
+			isa = PBXGroup;
+			children = (
+				533A4CB92B1E4B4E0046613E /* Plane.swift */,
+				533A4CC32B1E4B4E0046613E /* Tetrahedron.swift */,
+				533A4CC22B1E4B4E0046613E /* Cube.swift */,
+				533A4CC42B1E4B4E0046613E /* Octahedron.swift */,
+				533A4CBD2B1E4B4E0046613E /* Dodecahedron.swift */,
+				533A4CC12B1E4B4E0046613E /* Cuboctahedron.swift */,
+				533A4CBB2B1E4B4E0046613E /* Icosahedron.swift */,
+				533A4CBF2B1E4B4E0046613E /* Rhombicuboctahedron.swift */,
+				533A4CC02B1E4B4E0046613E /* TruncatedIcosahedron.swift */,
+				533A4CBE2B1E4B4E0046613E /* PolyhedronProtocol.swift */,
+			);
+			path = Polyhedra;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		533A4CA62B1E49D10046613E /* SpinningPolyhedra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533A4CB62B1E49D20046613E /* Build configuration list for PBXNativeTarget "SpinningPolyhedra" */;
+			buildPhases = (
+				533A4CA32B1E49D10046613E /* Sources */,
+				533A4CA42B1E49D10046613E /* Frameworks */,
+				533A4CA52B1E49D10046613E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinningPolyhedra;
+			productName = SpinningPolyhedra;
+			productReference = 533A4CA72B1E49D10046613E /* SpinningPolyhedra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533A4C9F2B1E49D10046613E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					533A4CA62B1E49D10046613E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 533A4CA22B1E49D10046613E /* Build configuration list for PBXProject "SpinningPolyhedra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 533A4C9E2B1E49D10046613E;
+			productRefGroup = 533A4CA82B1E49D10046613E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533A4CA62B1E49D10046613E /* SpinningPolyhedra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533A4CA52B1E49D10046613E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539FB6362B37B8E800D94A80 /* README.md in Resources */,
+				533A4CB32B1E49D20046613E /* Preview Assets.xcassets in Resources */,
+				533A4CAF2B1E49D20046613E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533A4CA32B1E49D10046613E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533A4CCC2B1E4B4E0046613E /* TruncatedIcosahedron.swift in Sources */,
+				533A4CCF2B1E4B4E0046613E /* Tetrahedron.swift in Sources */,
+				533A4CD02B1E4B4E0046613E /* Octahedron.swift in Sources */,
+				533A4CC72B1E4B4E0046613E /* Icosahedron.swift in Sources */,
+				533A4CAD2B1E49D10046613E /* ContentView.swift in Sources */,
+				533A4CC82B1E4B4E0046613E /* PolyhedronView.swift in Sources */,
+				534A22F02B23817D006D52DF /* EdgesNode.swift in Sources */,
+				533A4CC92B1E4B4E0046613E /* Dodecahedron.swift in Sources */,
+				533A4CC52B1E4B4E0046613E /* Plane.swift in Sources */,
+				533A4CAB2B1E49D10046613E /* SpinningPolyhedraApp.swift in Sources */,
+				533A4CCE2B1E4B4E0046613E /* Cube.swift in Sources */,
+				534A22F22B23817D006D52DF /* SolidNode.swift in Sources */,
+				533A4CCD2B1E4B4E0046613E /* Cuboctahedron.swift in Sources */,
+				533A4CCB2B1E4B4E0046613E /* Rhombicuboctahedron.swift in Sources */,
+				533A4CCA2B1E4B4E0046613E /* PolyhedronProtocol.swift in Sources */,
+				534A22F12B23817D006D52DF /* FacesNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		533A4CB42B1E49D20046613E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		533A4CB52B1E49D20046613E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		533A4CB72B1E49D20046613E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpinningPolyhedra/SpinningPolyhedra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpinningPolyhedra/Preview Content\"";
+				DEVELOPMENT_TEAM = GZ962756J3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spinning Polyhedra";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GZ962756J3.com.me.kbromley.SpinningPolyhedra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		533A4CB82B1E49D20046613E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpinningPolyhedra/SpinningPolyhedra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpinningPolyhedra/Preview Content\"";
+				DEVELOPMENT_TEAM = GZ962756J3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spinning Polyhedra";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GZ962756J3.com.me.kbromley.SpinningPolyhedra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533A4CA22B1E49D10046613E /* Build configuration list for PBXProject "SpinningPolyhedra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533A4CB42B1E49D20046613E /* Debug */,
+				533A4CB52B1E49D20046613E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533A4CB62B1E49D20046613E /* Build configuration list for PBXNativeTarget "SpinningPolyhedra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533A4CB72B1E49D20046613E /* Debug */,
+				533A4CB82B1E49D20046613E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533A4C9F2B1E49D10046613E /* Project object */;
+}
