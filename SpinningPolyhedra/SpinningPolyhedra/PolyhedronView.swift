@@ -61,7 +61,7 @@ struct PolyhedronView: View {
         spinNode2.position = SCNVector3(x: 0.0, y: 0.0, z: 1.5)
         spinNode3.position = SCNVector3(x: 0.0, y: 0.0, z: 2.0)
         spinNode4.position = SCNVector3(x: 0.0, y: 0.0, z: 2.5)
-        spinNode5.position = SCNVector3(x: 0.0, y: 0.0, z: 3.0)
+        spinNode5.position = SCNVector3(x: 0.0, y: 0.0, z: 2.8)
 
         let displayMode: String = selectedDisplayMode.wrappedValue
 
@@ -166,18 +166,13 @@ struct PolyhedronView: View {
         VStack {
             SceneView(
                 scene: {
-#if os(macOS)
-                    scene.background.contents = colorScheme == .light ? NSColor.white : NSColor.black
-#elseif os(iOS)
-                    scene.background.contents = colorScheme == .light ? UIColor.white : UIColor.black
-#endif
+                     scene.background.contents = colorScheme == .light ?
+                                                 CGColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0) : // white
+                                                 CGColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1.0)   // black
                     return scene
                 }(),
                 pointOfView: cameraNode,
-                options: [
-                    .allowsCameraControl,
-                    .autoenablesDefaultLighting,
-                ]
+                options: [ .allowsCameraControl, .autoenablesDefaultLighting, ]
             )
             .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
